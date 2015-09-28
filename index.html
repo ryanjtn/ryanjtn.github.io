@@ -3,33 +3,32 @@
 <head>
 </head>
 <body>
-	<div style="height: 900px; width: 100%">
-<script src="http://localhost:9451/largescreen/js?eventid=203518&websiteConfigId=237"></script>
-<script>
-    
-    Seatics.config.useC3 = true;
-        Seatics.config.c3CheckoutDomain = 'checkout.ticketliquidator.com';
-        Seatics.config.c3UtmCampaign = 'campaign';
-        Seatics.config.c3UtmSource = 'source';
-        Seatics.config.c3UtmMedium = 'medium';
-        Seatics.config.c3UtmContent = 'content';
-        Seatics.config.c3UtmTerm = 'term';
+<div style="height: 900px; width: 100%">
+	<script src="http://mapwidget.seatics.com/largescreen/js?eventid=203518&websiteConfigId=237"></script>
+	<script>
+	    Seatics.config.useC3 = true;
+		Seatics.config.c3CheckoutDomain = 'checkout.ticketliquidator.com';
+		Seatics.config.c3UtmCampaign = 'campaign';
+		Seatics.config.c3UtmSource = 'source';
+		Seatics.config.c3UtmMedium = 'medium';
+		Seatics.config.c3UtmContent = 'content';
+		Seatics.config.c3UtmTerm = 'term';
 
-        Seatics.config.onBuyButtonClicked = function(result) {
-            console.log('eventID: ' + result.eventID);
-            console.log('eventName: ' + result.eventName);
-            console.log('location: ' + result.location);
-            console.log('date: ' + result.date);
-            console.log('venueName: ' + result.venueName);
-            console.log('ticketGroupId: ' + result.ticketGroupId);
-            console.log('row: ' + result.row);
-            console.log('section: ' + result.section);
-            console.log('price: ' + result.price);
-            console.log('quantityRemaining: ' + result.quantityRemaining);
-            console.log('quantityRequested: ' + result.quantityRequested);
-            console.log('pageUrl: ' + result.pageUrl);
-        };
-        </script>
+		Seatics.config.onBuyButtonClicked = function(result) {
+		    console.log('eventID: ' + result.eventID);
+		    console.log('eventName: ' + result.eventName);
+		    console.log('location: ' + result.location);
+		    console.log('date: ' + result.date);
+		    console.log('venueName: ' + result.venueName);
+		    console.log('ticketGroupId: ' + result.ticketGroupId);
+		    console.log('row: ' + result.row);
+		    console.log('section: ' + result.section);
+		    console.log('price: ' + result.price);
+		    console.log('quantityRemaining: ' + result.quantityRemaining);
+		    console.log('quantityRequested: ' + result.quantityRequested);
+		    console.log('pageUrl: ' + result.pageUrl);
+		};
+	</script>
 </div>
 </body>
 </html>
